@@ -1,0 +1,6 @@
+<mat-card [class.selected]="videoData === (videoDataService.currentVideoSubject | async)">
+    <mat-card-header>
+      <mat-card-title>{{videoData.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>{{videoData.author}}</mat-card-content>
+  </mat-card>

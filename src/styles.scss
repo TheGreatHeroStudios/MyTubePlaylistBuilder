@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.appBanner
+{
+  width: 100%;
+  background-color: midnightblue;
+  height: 80px;
+}
+
+.appTitle
+{
+  color: aliceblue;
+  font-size: 18pt;
+}
+
+.selected {background-color:lightseagreen}
+

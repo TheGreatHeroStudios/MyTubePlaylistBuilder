@@ -1,0 +1,7 @@
+<h2>MY VIDEOS</h2>
+
+<app-video-thumbnail
+  *ngFor="let video of (videoListStream | async)"
+  [videoData]="video"
+  (click)="videoDataService.currentVideoSubject?.next(video)">
+</app-video-thumbnail>
