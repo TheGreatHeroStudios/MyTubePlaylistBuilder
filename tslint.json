@@ -15,6 +15,7 @@
       "app",
       "camelCase"
     ],
+    "comment-format": false,
     "component-selector": [
       true,
       "element",
@@ -66,6 +67,7 @@
       "as-needed"
     ],
     "object-literal-sort-keys": false,
+    "one-line": false,
     "ordered-imports": false,
     "quotemark": [
       true,
@@ -74,7 +76,7 @@
     "trailing-comma": false,
     "no-conflicting-lifecycle": true,
     "no-host-metadata-property": true,
-    "no-input-rename": true,
+    "no-input-rename": false,
     "no-inputs-metadata-property": true,
     "no-output-native": true,
     "no-output-on-prefix": true,

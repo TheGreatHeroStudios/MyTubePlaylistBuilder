@@ -1,5 +1,7 @@
 //Styling for Video Dashboard Component
 :host
 {
-
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: 20% 1fr;
 }

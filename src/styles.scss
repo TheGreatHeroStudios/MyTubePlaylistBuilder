@@ -1,25 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+html
+{
+  height: 100%;
+}
+
 body
 {
   display: grid;
-  grid-template-rows: 80px 1fr;
+  grid-template-rows: 70px 1fr;
+  height: 100%;
   margin: 0;
   overflow: hidden;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .appBanner
 {
-  width: 100%;
   background-color: midnightblue;
-  height: 80px;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  height: 100%;
+  width: 100%;
 }
 
 .appTitle
 {
+  align-self: center;
   color: aliceblue;
   font-size: 18pt;
+  grid-column: 2;
+  margin-left: 10px;
 }
 
-.selected {background-color:lightseagreen}
+.selected
+{
+  background-color:lightseagreen
+}
 

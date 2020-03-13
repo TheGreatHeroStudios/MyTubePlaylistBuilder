@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Video, VideoViewDetail} from './video-thumbnail/video-thumbnail.component';
+import {Video} from './video-thumbnail/video-thumbnail.component';
 import { VideoDataService } from '../video-data.service';
 import { Observable } from 'rxjs';
 

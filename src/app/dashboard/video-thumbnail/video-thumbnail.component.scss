@@ -1,0 +1,25 @@
+//Styling for Video Thumbnail Component
+.videoThumbnailContainer
+{
+  background-color: lightsteelblue;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 6fr 4fr;
+  height: 80px;
+  margin: 5px;
+}
+
+.videoTitle
+{
+  font-size: 14pt;
+  font-weight: 500;
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 5px;
+}
+
+.videoArtist
+{
+  grid-column: 2;
+  grid-row: 2;
+}
