@@ -1,0 +1,30 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"johnpapa.angular-essentials",
+    "angular.ng-template",
+    "johnpapa.angular2",
+    "johnpapa.winteriscoming",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "jtlowe.vscode-icon-theme",
+    "stkb.rewrap",
+    "johnpapa.vscode-peacock",
+    "nrwl.angular-console",
+    "eg2.vscode-npm-script",
+    "mhutchie.git-graph",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "msjsdiag.debugger-for-edge",
+    "msjsdiag.debugger-for-chrome",
+    "formulahendry.auto-rename-tag",
+    "natewallace.angular2-inline",
+    "esbenp.prettier-vscode"
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+
+	]
+}
